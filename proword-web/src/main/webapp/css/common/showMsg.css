@@ -1,0 +1,70 @@
+body{
+	position: relative;
+}
+/*成功信息提示*/
+.successTool{
+	display: none;
+	text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.successTool div{
+	width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    line-height: 60px;
+    background: #0cbbef;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.successTool p{
+	font-size: 18px;
+	color: #0cbbef;
+}
+/*失败信息提示*/
+.faileTool{
+	display: none;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 250px;
+    background: #e84c4c;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.faileTool div{
+	width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.faileTool p{
+	font-size: 14px;
+	color: #fff;
+    margin-bottom: 20px;
+    padding: 0 40px;
+}
+
+.successTool img,.faileTool img{
+	height: 24px;
+    margin-right: 3px;
+}
+
+.sl{
+	width:250px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+}

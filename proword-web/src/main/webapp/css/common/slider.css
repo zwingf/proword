@@ -1,0 +1,70 @@
+#leftMenu {   
+    position: absolute;
+    top: 52px;
+    left: 0;
+    bottom: 0;
+    width: 15.8%;
+    background: #33485c;
+}
+ 
+#leftMenu .menuList{
+    width: 100%;
+    padding-top: 40px;
+    background: #33485c;
+}
+
+#leftMenu .menuList .active{
+    color: #d34e46;
+}
+
+#leftMenu .menuList .active a{
+    color: #d34e46;
+}
+
+#leftMenu .menuList li a{
+    color: #d9dbde;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+}
+
+#leftMenu .menuList li{
+    line-height: 50px;
+    border-bottom: 1px solid #374e69;
+}
+
+#leftMenu .menuList li p{
+    /*padding-left: 38px;*/
+   	padding-left: 15%;
+    font-size: 14px;
+    color: #fff;
+}
+
+#leftMenu .menuList li p img{
+    margin-right: 8.6%;
+}
+  
+#leftMenu .father-active{
+    background: #0cbbef;
+}   
+
+#leftMenu .menuList li p .glyphicon{
+    /*margin-left: 90px;*/
+   	margin-left: 35%;
+}
+
+#leftMenu .menuList li ul li{
+    border-bottom: none;
+    text-align: left;
+    background: #374c61;
+    padding-left: 40%;
+    height: 30px;
+    line-height: 30px;
+}
+
+#leftMenu .menuList .son-menu{
+	background: #374c61;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}

@@ -1,0 +1,46 @@
+#topBar{
+    background: #2a3b4c;
+    padding: 0 30px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#topBar div{
+    height: 52px;
+    line-height: 52px;
+    display: inline-block;
+}
+
+#topBar .topLogo img{
+    position: relative;
+    top: -4px;
+    margin-right: 10px;
+}
+
+#topBar .topLogo span{
+    color: #fff;
+    font-size: 18px;
+}
+
+#topBar #logoutWrap{
+    float: right;
+    text-align: right;
+    background: #2a3b4c;
+    height: 52px;
+    
+}
+
+#topBar #logoutWrap span{
+    color: #fff;
+    font-size: 16px;
+}
+
+#topBar #logoutWrap .username{
+    margin-right: 20px;
+}
+
+#topBar #logoutWrap .username:hover,.userexit:hover{
+    color: #39d1fb;
+    cursor: pointer;
+}

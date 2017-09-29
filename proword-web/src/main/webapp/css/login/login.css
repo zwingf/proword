@@ -1,0 +1,182 @@
+@charset "utf-8";
+/*登录页的头部设置*/
+.main{ 
+  width:100%;
+  min-width:1220px;
+  height:110vh;
+  margin:0 auto;
+  padding:0;
+  background-image:url("../../images/login/brg-new4.jpg");
+  background-size:cover;
+  position:relative;
+
+}
+.main img{ 
+   float:none;
+}
+.main-header{ 
+  width:100%;
+  height:8vh;
+  padding:10px 20px;
+  line-height:8vh;
+}
+.main-header:after{ 
+ content:'';
+ display:block;
+ clear:both;
+ width:0;
+ height:0;
+ visibility:hidden;
+}
+.main-header .left-content{ 
+  float:left;
+  margin-left:72px;
+  margin-top:20px;
+}
+.main-header .right-content{
+  display: inline-block; 
+  float:right;
+  margin-right:72px;
+  margin-top:20px;
+}
+.main-header .right-content .help-button{ 
+	color:#fff;
+	text-decoration:none;
+	margin-right:20px;
+	font-size:14px;
+}
+.right-content .help-img{ 
+  margin-right:5px;
+}
+.right-content .person-img{ 
+  margin-right:20px;
+}
+.main-header .right-content .please-login{ 
+	color:#fff;
+	text-decoration:none;
+	font-size:14px;
+	cursor:pointer;
+}
+.main-header .right-content .please-login:hover{ 
+  color:#500;
+}
+
+/*主体部分的设置*/
+.container-style{ 
+	height:100vh;
+	min-height:100vh;
+}
+.container-style .main-right{ 
+   position:absolute;
+   right:15%;
+   top:13vh;
+   background-image:url("../../images/login/brg-login.png");
+   background-size:100%;
+   background-repeat:no-repeat;
+   height:86vh;
+   width:376px;
+}
+.container-style .main-right h4{ 
+	margin-top:40px;
+	margin-left:43px;
+	font-size:20px;
+
+}
+.container-style .main-right .tips{ 
+    margin-top:10px;
+    font-size:12px;
+    margin-left:43px;
+    color:#b0b0b0;
+}
+.ball-img{ 
+	margin-left:-2%;
+	margin-top:-28px;
+}
+/*登录信息样式的填写*/
+.form-group{ 
+	width:300px;
+	margin-left:40px;
+}
+.form-group label{ 
+  margin-bottom:7px;
+  color:#b0b0b0;
+  font-size:14px;
+  font-weight:normal;
+}
+.account{ 
+  margin-top:34px;
+}
+/*验证码的样式*/
+.code-title{ 
+	display:block;
+}
+.yzm{ 
+  width:48%;
+  display:inline-block;
+}
+.code_pic{ 
+  padding-top:5px;
+  width:40%;
+  margin-left:40px;
+  left:156px;
+  top:-55px;
+
+}
+.auto-style{ 
+ height:23px;
+ line-height:23px;
+ position:relative;
+ z-index:111;
+ margin-top:-10px;
+}
+.checkbox-style{ 
+	width:20px;
+	height:20px;
+	float:left;
+}
+.auto-style span{ 
+  font-size:13px;
+  color:#b0b0b0;
+}
+.auto-commit{ 
+ margin-left:5px;
+ display:inline-block;
+ padding-top:2px;
+}
+.forget-word{ 
+  margin-left:43px;
+  cursor:pointer;
+
+}
+/*登录按钮*/
+.login-button{ 
+  margin-left:90px;
+  margin-top:23px;
+}
+.login-button input{ 
+   display:block;
+   width:200px;
+   height:40px;
+   background:#10d4f5;
+   border:none;
+   border:1px solid #bbb;
+   border-radius:7px;
+   font-size:14px;
+   font-weight:bold;
+}
+/*版权*/
+.copy-right{ 
+  width:100%;
+  position:absolute;
+  bottom:15px;
+  font-size:14px;
+}
+.copy-right .copy-right-top{ 
+  text-align:center;
+  color:#888;
+}
+.copy-right .copy-right-bottom{ 
+  text-align:center;
+  margin-top:6px;
+  color:#888;
+}

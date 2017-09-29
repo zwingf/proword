@@ -1,0 +1,395 @@
+﻿.table-bordered{
+	border: 1px solid #e4e4e4;
+}
+#rightContent {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+    padding: 20px 20px 24px 20px;
+    position: absolute;
+    top: 52px;
+    left: 15.8%;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background: #f0f2f5;
+}
+
+#rightTop{
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 20px 0 10px 22px;
+}
+
+#rightTop h3{
+	font-size: 14px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#rightTop ul li{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 13px;
+	line-height: 34px;
+}
+
+#rightTop ul li label{
+	color: #b5bccc;
+	font-size: 12px;
+	margin-right: 20px;
+	font-weight: 100;
+	margin-bottom: 0;
+	/*width: 72px;*/
+    text-align: right;
+}
+
+.forminput1,.forminput2,.forminput3,.forminput4{
+    display: inline-block;
+}
+
+.forminput1{
+	width: 146px;
+}
+
+.forminput2,.forminput3{
+	width: 240px;
+}
+
+.formbtn1{
+	width: 102px;
+	background: #e6e6e6;
+	border: none;
+	color: #6a6362;
+	position: relative;
+    top: -2px;
+    height: 34px;
+	box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btnClick{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+.formbtn2{
+	width: 102px;
+	background: #0cbbef;
+	border: none;
+	color: #fff;
+	position: relative;
+    top: -1px;
+    height: 34px;
+	box-shadow: 0px 2px rgba(113, 163, 201, 0.2);
+}
+
+.formbtn1:hover,.formbtn1.active,.formbtn1.focus,.formbtn1.active:hover,.formbtn1.focus:hover{
+	background-color: #dedcdc;
+	color: #6a6362;
+}
+
+.formbtn2:hover,.formbtn2.active,.formbtn2.focus,.formbtn2.active,.formbtn2.focus:hover{
+	background-color: #0bb4e6;
+	color: #fff;
+}
+.forminput4{
+	width: 512px;
+}
+
+#rightBottom{
+	background: #fff;
+	padding: 20px;
+	
+}
+
+#rightBottom .dataNum{
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 24px;
+	height: 14px;
+	line-height: 14px;
+}
+
+#rightBottom .dataNum span{
+	font-weight: bold;
+	color: #14151d;
+}
+
+#rightBottom .dataNum img{
+	margin-right: 7px;
+	position: relative;
+	top: -2px;
+}
+
+#rightBottom .addFirm{
+	background: #ffb24e;
+	color: #fff6ed;
+	padding: 10px 30px;
+	margin-bottom: 14px;
+	box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+	outline: none;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+#rightBottom .listName{
+	color: #999;
+	font-size: 12px;
+	height: 12px;
+	margin-bottom: 10px;
+	line-height: 12px;
+}
+
+#rightBottom .table thead tr{
+	background: #efefef;
+	height:45px;
+	line-height:45px;
+}
+
+#rightBottom .table tbody tr{ 
+    height:40px;
+	line-height:40px;
+}
+#rightBottom .table tbody tr .access{
+	color: #0cbbef;
+	cursor: pointer;
+}
+
+#rightBottom .table tbody tr .num{
+	text-align: center;
+}
+
+#rightBottom .table tbody tr td .update{
+	color: #5893e1;
+	cursor: pointer;
+	margin-right: 20px;
+	margin-left: 27%;
+}
+#rightBottom .table tbody tr td .allot{ 
+	color:#5893e1;
+	cursor:pointer;
+	margin-right:20px;
+
+}
+#rightBottom .table tbody tr td .delete{
+	color: #e74c3c;
+	cursor: pointer;
+}
+
+#rightBottom .table tbody tr td{
+	word-break: break-all;
+}
+/*弹出框样式*/
+.popover .popover-title{
+	color: #0cbbef;
+	background: #fff;
+}
+
+/*模态框样式*/
+ .modal-header{
+	border-bottom: none;	
+}
+
+ .modal-header h4{
+	color: #1c1f1f;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+ .modal-body p{
+	color: #999;
+	font-size: 14px;
+	height: 14px;
+	line-height: 14px;
+	margin-bottom: 20px;
+}
+ .modal-body .forminput5{
+	width: 468px;
+	display: inline-block;
+}
+
+ .modal-body .prompt{
+	color: #f75054;
+	font-size: 12px;
+	margin-left: 16px;
+}
+
+ .modal-dialog{
+	width: 950px;
+}
+
+ .modal-dialog .modal-content{
+	padding: 0 100px;
+}
+
+ .modal-footer{
+	border-top: none;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+ .modal-footer .formbtn3 {
+	background: #0cbbef;
+	color: #fff;
+	padding: 10px 60px;
+}
+
+ .modal-footer .formbtn3:hover{
+	background: #0ab3e5;
+}
+
+.modal-body .rolecheck{
+	padding: 28px 0 0 28px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	height: 200px;
+	overflow: auto;
+}
+
+.modal-body .rolecheck .option-style{
+	width: 30%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.modal-body .rolecheck .option-style input{
+	position: relative;
+	top: -2px;
+}
+
+.modal-body .rolecheck .option-style span{
+	display: inline-block;
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    color: #4f4e4e;
+}
+
+ .modal-body .rolecheck .checkbox-inline{
+	margin-right: 100px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #1c1919;
+	margin-bottom: 42px;
+}
+/*模态框表单的样式*/
+ .modal-body .user-info{ 
+  margin-top:20px;
+}
+ .modal-body .user-info label{ 
+	color:#999;
+	width: 60px;
+	font-size:14px;
+	margin-right:10px;
+	font-weight: normal;
+	display: inline-block;
+}
+.modal-body .user-info .form-right{ 
+   margin-left:20px;
+
+}
+
+/*删除模态框样式*/
+#deleModal .modal-dialog{
+	width: 400px;
+	height: 244px;
+	margin: 150px auto;
+}
+
+#deleModal .modal-dialog .modal-content{
+	padding: 0;
+}
+
+#deleModal .modal-header{
+	padding-top: 30px;
+	border-bottom: none;
+}
+
+#deleModal .modal-header h4{
+	text-align: center;
+    color: #2a2828;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#deleModal .modal-body{
+	font-size: 12px;
+	color: #a0a0a0;
+	text-align: center;
+	line-height: 14px;
+	margin-top: 5px;
+}
+
+#deleModal .modal-footer .closeBtn{
+	padding: 5px 30px;
+    margin-left: 15px;
+    background: #adb7c7;
+    color: #fff;
+}
+
+#deleModal .modal-footer .okeBtn{
+	padding: 5px 30px;
+    background: #0cbbef;
+    color: #fff;
+}
+
+/*分页的样式*/
+.page-style{ 
+	text-align:center;
+}
+
+.page-style #Pagination a,.page-style #Pagination span{
+	height: 28px;
+    line-height: 24px;
+    width: 28px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 0;
+}
+
+.page-style #Pagination .next{
+	margin-right: 0;
+}
+
+/*表格中选择框的样式*/
+.check{ 
+  text-align:center;
+}

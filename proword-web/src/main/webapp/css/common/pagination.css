@@ -1,0 +1,69 @@
+.pagination {
+            font-size: 80%;
+        }
+        
+.pagination a {
+    text-decoration: none;
+	border: solid 1px #AAE;
+	color: #15B;
+}
+
+.pagination a, .pagination span {
+    display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination .current {
+    background: #26B;
+    color: #fff;
+	border: solid 1px #AAE;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}
+
+/*分页的样式*/
+.page-style{
+	text-align:center;
+}
+
+.page-style #Pagination a,.page-style #Pagination span{
+	height: 28px;
+    line-height: 24px;
+    width: 28px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 0;
+}
+
+.page-style #Pagination .next{
+	margin-right: 0;
+}
+
+.page-style #totalNum{
+	color: deepskyblue;
+}
+
+.page-style #Pagination,.page-style p{
+	float: left;
+}
+.page-style #Pagination{
+	position: relative;
+    left: 35%;
+}
+
+.page-style p{
+	height: 73px;
+    line-height: 70px;
+    display: inline-block;
+    position: relative;
+    left: 36%;
+}

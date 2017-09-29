@@ -1,0 +1,28 @@
+/*模态框关闭按钮的样式*/
+.modal-header .close {
+    color: 3000;
+    margin-top: -2px;
+    position: absolute;
+    top: -21px;
+    right: -20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    opacity: 0.6;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: #fff;
+    border: 0
+}
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    opacity: .8;
+}

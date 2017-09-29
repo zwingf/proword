@@ -1,0 +1,475 @@
+@charset "utf-8";
+.table-bordered{
+	border: 1px solid #e4e4e4;
+}
+#rightContent {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+    padding: 20px 20px 24px 20px;
+    position: absolute;
+    top: 52px;
+    left: 15.8%;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background: #f0f2f5;
+}
+
+#rightTop{
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 20px 0 10px 22px;
+}
+
+#rightTop h3{
+	font-size: 14px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#rightTop ul li{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 13px;
+	line-height: 34px;
+}
+
+#rightTop ul li label{
+	color: #b5bccc;
+	font-size: 12px;
+	margin-right: 20px;
+	font-weight: 100;
+	margin-bottom: 0;
+	/*width: 72px;*/
+    text-align: right;
+}
+
+.forminput1{
+    display: inline-block;
+    width: 272px;
+    
+}
+
+.btnClick{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+.formbtn2{
+	width: 102px;
+	background: #0cbbef;
+	border: none;
+	color: #fff;
+	position: relative;
+    top: -2px;
+    height: 34px;
+	box-shadow: 0px 2px rgba(113, 163, 201, 0.8);
+}
+
+.formbtn2:hover,.formbtn2.active,.formbtn2.focus,.formbtn2.active,.formbtn2.focus:hover{
+	background-color: #0bb4e6;
+	color: #fff;
+}
+
+#rightBottom{
+	background: #fff;
+	padding: 20px;
+	
+}
+
+#rightBottom .addFirm{
+	background: #ffb24e;
+	color: #fff6ed;
+	padding: 10px 30px;
+	margin-bottom: 14px;
+	box-shadow: 0px 2px rgba(227, 141, 29, 0.9);
+	outline: none;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+#rightBottom .listName{
+	color: #999;
+	font-size: 12px;
+	height: 12px;
+	margin-bottom: 10px;
+	line-height: 12px;
+}
+
+#rightBottom .table thead tr,#seeFirmModal .table thead tr{
+	background: #efefef;
+	height:45px;
+	line-height:45px;
+}
+
+#rightBottom .table tbody tr{ 
+    height:40px;
+	line-height:40px;
+}
+
+#rightBottom .table tbody tr .num{
+	text-align: center;
+}
+
+#rightBottom .table tbody tr td{
+	word-break: break-all;
+}
+
+#rightBottom .table tbody tr .option{
+	text-align: center;
+}
+/*修改*/
+#rightBottom .table tbody tr td .update{
+	color: #5893e1;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+/*绑定域名*/
+#rightBottom .table tbody tr td .bindCdn{ 
+	color:#5893e1;
+	cursor:pointer;
+
+}
+
+/*查看*/
+#rightBottom .table tbody tr td .showdetail{ 
+   color:#5893e1;
+   cursor:pointer;
+   margin-right:10px;
+}
+/*删除*/
+#rightBottom .table tbody tr td .delete{
+	color: #5893e1;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+/*模态框样式*/
+ .modal-header{
+	border-bottom: none;	
+}
+
+ .modal-header h4{
+	color: #1c1f1f;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*新增厂商模态框样式*/
+#addFirmModal .modal-dialog{
+    width: 400px;
+    height: 244px;
+}
+
+#addFirmModal .modal-dialog .modal-body .row{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.forminput2{
+	height: 50px;
+	width: 338px;
+	display: inline-block;
+}
+
+#addFirmModal .modal-dialog .modal-body .row .addOkBtn,
+#updateFirmModal .modal-dialog .modal-body .row .updateOkBtn{
+	background: #0cbbef;
+	margin-right: 20px;
+	padding: 10px 36px;
+    color: #fff;
+}
+
+#addFirmModal .modal-dialog .modal-body .row .addCloseBtn,
+#updateFirmModal .modal-dialog .modal-body .row .updateCloseBtn{
+	background: #adb7c7;
+	padding: 10px 36px;
+    color: #fff;
+}
+
+/*修改模态框样式*/
+#updateFirmModal .modal-dialog{
+	width: 484px;
+	height: 328px;
+}
+
+#updateFirmModal .modal-dialog .modal-body .row{
+	margin: 0;
+	margin-left: 68px;
+    margin-bottom: 30px;
+}
+
+#updateFirmModal .modal-dialog .modal-body .row label{
+	color: #a9a9a9;
+	font-size: 12px;
+	margin-right: 10px;
+	font-weight: 100;
+}
+
+#updateFirmModal .modal-dialog .modal-body .row .beforeUpdateName{
+	margin-left: 12px;
+}
+
+#updateFirmModal .modal-dialog .modal-body .row .afterUpdateName{
+	display: inline-block;
+    width: 250px;
+    font-size: 12px;
+}
+
+#updateFirmModal .modal-dialog .modal-body .updateBtn{
+    margin-left: 116px;
+}
+
+/*模态框表单的样式*/
+ .modal-body .user-info{ 
+  margin-top:20px;
+}
+ .modal-body .user-info label{ 
+	color:#999;
+	font-size:14px;
+	margin-right:10px;
+	font-weight: normal;
+}
+.modal-body .user-info .form-right{ 
+   margin-left:20px;
+
+}
+
+/*删除模态框样式*/
+#deleModal .modal-dialog{
+	width: 400px;
+	height: 244px;
+	margin: 150px auto;
+}
+
+#deleModal .modal-dialog .modal-content{
+	padding: 0;
+}
+
+#deleModal .modal-header{
+	border-bottom: none;
+}
+
+#deleModal .modal-header h4{
+	text-align: center;
+    color: #2a2828;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#deleModal .modal-body{
+	font-size: 12px;
+	color: #a0a0a0;
+	text-align: center;
+	line-height: 14px;
+	margin-top: 5px;
+}
+
+#deleModal .modal-footer{
+	text-align: center;
+	border: none;
+	padding-bottom: 30px;
+}
+
+#deleModal .modal-footer .closeBtn{
+	padding: 5px 30px;
+    margin-right: 15px;
+    background: #adb7c7;
+    color: #fff;
+}
+
+#deleModal .modal-footer .okeBtn{
+	padding: 5px 30px;
+    background: #0cbbef;
+    color: #fff;
+    margin-right: 15px;
+}
+
+/*查看模态框样式*/
+#seeFirmModal .modal-dialog{
+	width: 874px;
+}
+#seeFirmModal .num{
+	text-align: center;
+}
+
+#seeFirmModal .row{
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0 100px;
+}
+
+#seeFirmModal label{
+	margin-right: 15px;
+	color: #a7a7a7;	
+	font-size: 12px;
+	font-weight: 100;
+}
+
+#seeFirmModal .seeSearchBtn{
+	color: #fff;
+	background: #0cbbef;
+	height: 40px;
+	position: relative;
+	top: -2px;
+	padding: 10px 36px;
+	margin-left: 10px;
+}
+#seeFirmModal .closeBindBtn{ 
+   color:#fff;
+   margin-left:35px;
+   background: #ffb24e;
+   height: 40px;
+   position: relative;
+   top: -2px;
+   padding: 10px 36px;
+}
+#seeFirmModal .seeBindBtn{ 
+   padding: 10px 39px;
+   color: #fff;
+	background: #0cbbef;
+	height: 40px;
+	position: relative;
+	top: -2px;
+	margin-left: 10px;
+
+}
+#seeFirmModal .table-responsive{
+	height: 250px;
+	overflow: auto;
+}
+#seeFirmModal .cnameInput{
+	display: inline-block;
+	width: 180px;
+	height: 40px;
+}
+#seeFirmModal .seeBtn{
+	text-align: center;
+}
+
+#seeFirmModal .seeBtn .seeOkBtn{
+	padding: 10px 80px;
+	margin-right: 50px;
+	background: #0cbbef;
+	color: #fff;
+}
+
+#seeFirmModal .seeBtn .seeCloseBtn{
+	padding: 10px 80px;
+	color: #fff;
+	background: #adb7c7;
+}
+
+/*绑定域名模态框样式*/
+#bindCdnModal .modal-dialog{
+	width: 484px;
+}
+
+#bindCdnModal .modal-dialog .modal-body .row{
+	margin: 0;
+	padding: 0 34px;
+    margin-bottom: 30px;
+}
+
+#bindCdnModal .modal-dialog .modal-body .row label{
+	color: #999;
+	font-size: 12px;
+	margin-right: 10px;
+	font-weight: 100;
+	width: 60px;
+	text-align: right;
+}
+
+#bindCdnModal .modal-dialog .modal-body .row input{
+	display: inline-block;
+	width: 270px;
+}
+
+#bindCdnModal .modal-dialog .modal-body .bindBtn{
+    text-align: center;
+}
+
+#bindCdnModal .modal-dialog .modal-body .bindBtn .bindOkBtn{
+	padding: 10px 36px;
+	margin-right: 20px;
+	background: #0cbbef;
+	color: #fff;
+	width: 100px;
+}
+
+#bindCdnModal .modal-dialog .modal-body .bindBtn .bindCloseBtn{
+	padding: 10px 36px;
+	color: #fff;
+	background: #adb7c7;
+	width: 100px;
+}
+
+/*分页的样式*/
+.page-style{ 
+	text-align:center;
+}
+
+.page-style #Pagination a,.page-style #Pagination span{
+	height: 28px;
+    line-height: 24px;
+    width: 28px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 0;
+}
+
+.page-style #Pagination .next{
+	margin-right: 0;
+}
+
+/*表格中选择框的样式*/
+.check{ 
+  text-align:center;
+}
+/*绑定域名中未绑定的样式*/
+.noBind{ 
+  color:#ffb24e;
+}
+.noBindInput{ 
+  width:100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 22px;
+}
